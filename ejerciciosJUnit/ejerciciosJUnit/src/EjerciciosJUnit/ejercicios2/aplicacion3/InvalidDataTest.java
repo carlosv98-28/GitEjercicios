@@ -5,13 +5,8 @@ import org.junit.Test;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.openqa.selenium.By;
-
-import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.TestMethodOrder;
-
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 @TestMethodOrder (MethodOrderer.OrderAnnotation.class)
 public class InvalidDataTest extends Base1 {

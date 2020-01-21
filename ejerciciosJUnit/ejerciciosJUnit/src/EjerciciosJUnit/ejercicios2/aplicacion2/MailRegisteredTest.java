@@ -1,10 +1,8 @@
 package EjerciciosJUnit.ejercicios2.aplicacion2;
 
 import EjerciciosJUnit.ejercicios2.base2.Base2;
-import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
